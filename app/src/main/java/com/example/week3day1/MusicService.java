@@ -129,7 +129,7 @@ public class MusicService extends Service implements MediaPlayer
   .setContentText(songTitle);
         Notification not = builder.build();
 
-        //startForeground(NOTIFY_ID, not);
+        startForeground(NOTIFY_ID, not);
     }
 
     public void setSong(int songIndex){
